@@ -3,8 +3,6 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
-const uniqid = require("uniqid");
-
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -42,7 +40,6 @@ const saveNote = (note) =>
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(note),
-    id: uniqid.process(),
   });
 
 const deleteNote = (id) =>
@@ -184,5 +181,3 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
-
-// module.exports = { getNotes, saveNote, deleteNote };

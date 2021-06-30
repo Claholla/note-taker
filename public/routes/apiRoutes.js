@@ -1,6 +1,6 @@
 // Dependencies
 const db = require("../../db/db.json");
-
+const uniqid = require("uniqid");
 
 // Routing
 module.exports = (app) => {
@@ -10,7 +10,10 @@ module.exports = (app) => {
 
     // API POST requests
     app.post("/api/notes", (req, res) => {
-        db.push(req.body);
-        res.json(true);
+        let body = req.body;
+        body.id = uniqid.process();
+        db.push(body);
+        // fs.writeFileSync("../../db/db.json", JSON.stringify(db));
+        res.json(body);
     });
 }
