@@ -8,6 +8,7 @@
 
   ## Table of Contents
 
+  - [Screenshots](#screenshots)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
@@ -15,6 +16,10 @@
   - [License](#license)
   - [Questions](#questions)
 
+  ## Screenshots
+  ![screen1](https://user-images.githubusercontent.com/80665978/123892797-de7f5600-d920-11eb-9f56-44190b35b1c3.png)
+
+  ![screen2](https://user-images.githubusercontent.com/80665978/123892813-e3440a00-d920-11eb-97cf-9ba6f02feb36.png)
   ## Installation
 
   Install any required packages using npm i.
