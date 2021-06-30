@@ -11,8 +11,6 @@
   - [Screenshots](#screenshots)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
 
@@ -27,14 +25,6 @@
   ## Usage
 
   The user is able to add information to the saved notes through the floppy disk icon on the top right of the navbar once they've entered a note title and contents through the UI.
-
-  ## Contributing
-
-  N/A
-
-  ## Tests
-
-  N/A
 
   ## License
 
